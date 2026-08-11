@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fix GHSA-hq66-cqwq-w95j: update pdf.js to 6.2.108
+
 ## 5.15.1
 
 - Fix layoutPdf hanging forever in iOS App Store builds: return the document via the method-channel reply instead of a dlsym FFI callback, whose symbols are stripped from statically linked (Swift Package Manager) apps by distribution builds
